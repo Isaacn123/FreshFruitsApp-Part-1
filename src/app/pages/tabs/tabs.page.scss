@@ -1,0 +1,29 @@
+ion-tab-bar{
+    //  --background:#F4FAF6;
+     --ion-color-base: transparent !important;
+    //  --background: transparent;
+    --color-selected: #137574 !important;
+      // opacity:0.5;
+      ion-tab-button{
+        --background:#eef2ee;
+        --color-selected: #137c7a !important;
+  
+    }
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    // ion-tab-button:first-child{
+    //     --background: transparent;
+    // }
+  } 
+
+
+  //////// Middle Button styles ///////////////////////////
+
+  .middle-button-container{
+      position: absolute;
+      bottom: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      
+  }

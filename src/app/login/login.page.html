@@ -1,0 +1,38 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+
+  <div class="background-pic">
+     <div class="background-filter">
+       <div class="shape"><img src="../../assets/shape.svg" /></div>
+
+       <ion-card>
+         <ion-card-header>
+           <ion-card-title>
+            Welcome!
+           </ion-card-title>
+           <ion-card-subtitle>
+            Time to Shop, Let's <a href="#" >Sign in</a>
+           </ion-card-subtitle>
+         </ion-card-header>
+         <ion-card-content>
+            <ion-item>
+             <ion-input placeholder="Email Adress"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input placeholder="Password"></ion-input>
+            </ion-item>
+            <a href="#">Forgot Password</a>
+
+            <div class="bottom-section">
+              <ion-button (click)="navigateToLoginPage()">Sign In</ion-button>
+              <span> Don't have an account ? <a href="http://localhost:8100/signup"> Sign Up</a></span>
+            </div>
+         </ion-card-content>
+       </ion-card>
+     </div>
+  </div>
+
+</ion-content>
